@@ -28,6 +28,6 @@ app.layout = html.Div(children=[
     dcc.Graph(figure=fig)
 ])
 
-# Run the web app server (turn off reloader as we are running it inside a Jupyter notebook)
+# Run the web app server
 if __name__ == '__main__':
     app.run_server(debug=False)
