@@ -1,0 +1,6 @@
+# Project exclude paths
+/venv/venv/
+.idea/
+.DS_Store
+plotly_express/.ipynb_checkpoints/
+/venv

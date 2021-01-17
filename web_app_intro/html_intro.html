@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COMP0034 Introduction to HTML</title>
+</head>
+<body>
+<!-- This is a comment -->
+
+<p>This is a paragraph tag.</p>
+
+<!-- Headings -->
+<h1>This is a heading 1 tag.</h1>
+<h2>This is a heading 2 tag.</h2>
+<h3>This is a heading 3 tag.</h3>
+<h4>This is a heading 4 tag.</h4>
+<h5>This is a heading 5 tag.</h5>
+<h6>This is a heading 6 tag.</h6>
+
+<!--An Unordered HTML List-->
+<ul>
+<li>Coffee</li>
+<li>Tea</li>
+<li>Milk</li>
+</ul>
+
+<!--An Ordered HTML List-->
+<ol>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ol>
+
+<!-- Link -->
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML Elements Reference</a></p>
+
+<!-- Image -->
+<!-- alt="" provides alternative text if the image cannot be displayed or used by screen readers -->
+<img src="ucl_cs_logo.jpg" alt="ucl logo" style="width:50px;height:50px;">
+
+<!-- Table -->
+<table>
+    <tr>
+        <th>Company</th>
+        <th>Contact</th>
+    </tr>
+    <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+    </tr>
+</table>
+
+<!-- Horizontal rule -->
+<p>The &lt;hr&gt; tag defines a thematic break in an HTML page (e.g. a shift of topic).</p>
+<p>It is used to separate content (or define a change) in an HTML page.</p>
+
+<!-- Line break -->
+<p>To break lines<br>in a text,<br>use the br element.</p>
+
+<!-- The <form> element defines a form that is used to collect user input
+e.g. <form name=”signup” action="/signup.php" method="post">
+The default method when submitting form data is GET.
+POST should be used for personal/sensitive information or data larger than ~3000 characters
+-->
+<form name="signup" action="" method="post">
+    <label for="firstname">First name</label>
+    <input type="text" name="firstname" id="firstname" value="Mickey"><br>
+    <label for="lastname">Last name</label>
+    <input type="text" name="lastname" id="lastname" value="Mouse"><br>
+    <label for="bio">Tell us a bit about yourself</label>
+    <textarea name="bio" id="bio" rows="4" cols="50"></textarea><br>
+    <input type="submit" value="Sign up">
+</form>
+
+</body>
+</html>
