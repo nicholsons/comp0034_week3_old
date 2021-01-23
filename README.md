@@ -1,6 +1,7 @@
 # COMP0034 week 3 code to support the activities on Moodle
 
-The code in this repository supports the activities in Moodle. It is not intended to function as an exemplar or as a standalone repository.
+The code in this repository supports the activities in Moodle. It is not intended to function as an exemplar or as a
+standalone repository.
 
 ## Contents
 
@@ -9,9 +10,13 @@ This week there are 2 directories in the repository:
 1. `plotly_express`
    This contains Jupyter notebooks for learning to use Plotly Express and creating choropleth maps. There is also a
    notebook that explores how to save maps to html which we will then view in a web browser. You may use your IDE (if it
-   supports Jupyter notebooks) or Binder for these activities.
-   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nicholsons/comp0034_week3.git/master)
-
+   supports Jupyter notebooks) or Binder for these activities. You can use a preconfigured Binder session
+   here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nicholsons/comp0034_week3/HEAD)
+   You can also create your own Binder session linked to your GitHub classroom repo. Go
+   to [mybinder.org](https://mybinder.org) amd enter the URL to your GitHub repo. Binder will not keep your notebook
+   changes once you close the session, however you can download a copy of your notebook before quitting binder and you
+   can add that to your repo. There wasn't previously a facility to save back to GitHub though do check the Binder
+   documentation as new features may have been added.
 2. `flask_app`
    This contains a basic Flask web app that displays two of the charts created in the activities in the `plotly_express`
    directory, as well as charts created in matplotlib (covered in week 1). You will need to do something similar for
