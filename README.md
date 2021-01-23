@@ -1,6 +1,6 @@
 # COMP0034 week 3 code to support the activities on Moodle
 
-The code in this repository supports the activities in Moodle. It is not intended to function as an exemplar or
+The code in this repository supports the activities in Moodle. It is not intended to function as an exemplar or as a standalone repository.
 
 ## Contents
 
