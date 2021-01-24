@@ -25,7 +25,7 @@ plt.ylabel('some numbers')
 plt.savefig('plot_line.png', format='png')
 ```
 
-You will then need to move the 'plot.png' into the flask_app/static/charts folder.
+You will then need to move the 'plot_line.png' into the flask_app/static/charts folder.
 
 If you look at the code in `flask_app/save_charts.py` you will see that I have created a function that saves my charts
 to this folder.
