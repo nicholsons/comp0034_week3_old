@@ -7,11 +7,14 @@ standalone repository.
 
 This week there are 2 directories in the repository:
 
-1. `plotly_express`
-   
-   This contains Jupyter notebooks for learning to use Plotly Express and creating choropleth maps. There is also a
-   notebook that explores how to save maps to html which we will then view in a web browser. You may use your IDE (if it
-   supports Jupyter notebooks) or Binder for these activities.
+1. `activities`
+
+   This contains 3 Jupyter notebooks for learning to use Plotly Express and creating choropleth maps.
+
+   There is also an activity written in markdown that explains how to save the chart types created so far and add them
+   to the template Flask app for coursework 1.
+
+   You may use your IDE (if it supports Jupyter notebooks) or Binder for these activities.
 
    You can use a preconfigured Binder session
    here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nicholsons/comp0034_week3/HEAD)
@@ -21,17 +24,15 @@ This week there are 2 directories in the repository:
    changes once you close the session, however you can download a copy of your notebook before quitting binder and you
    can add that to your repo. There wasn't previously a facility to save back to GitHub though do check the Binder
    documentation as new features may have been added.
-   
+
 2. `flask_app`
-   
-   This contains a basic Flask web app that displays two of the charts created in the activities in the `plotly_express`
-   directory, as well as charts created in matplotlib (covered in week 1). You will need to do something similar for
-   coursework 1. 
-   
-   Ideally you should use an IDE such as PyCharm for this as it should provide better support for Flask.
-   If you need an online IDE then [Pythonanywhere](https://help.pythonanywhere.com/pages/Flask/) allows Flask apps to be
-   created and run online, however you will need to read their documentation as there are some minor differences in how
-   you configure Flask to run online.
+
+   This contains a Flask web app that is similar to the template provided for courswork 1 in GitHub classroom.
+
+   Ideally you should use an IDE such as PyCharm for this as it should provide better support for Flask. If you need an
+   online IDE then [Pythonanywhere](https://help.pythonanywhere.com/pages/Flask/) allows Flask apps to be created and
+   run online, however you will need to read their documentation as there are some minor differences in how you
+   configure Flask to run online.
 
 ## Setting up your coding environment
 
@@ -44,9 +45,9 @@ preferred IDE (if it supports Jupyter).
 
 To use the Flask app you will need to:
 
-1. create a virtual environment
-2. install the dependencies from requirements.txt
-3. check your IDE configuration:
+1. create a virtual environment ([PyCharm documentation]())
+2. install the dependencies from requirements.txt ([PyCharm documentation](https://www.jetbrains.com/help/pycharm/managing-dependencies.html))
+3. check your IDE configuration:  [Pycharm Flask documentation](https://www.jetbrains.com/help/pycharm/flask.html)
     - supports Flask
     - supports Jinja
     - recognises the template and static folders

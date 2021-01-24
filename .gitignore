@@ -2,5 +2,5 @@
 /venv/venv/
 .idea/
 .DS_Store
-plotly_express/.ipynb_checkpoints/
+activities/.ipynb_checkpoints/
 /venv
