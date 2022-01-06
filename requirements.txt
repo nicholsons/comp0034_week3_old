@@ -2,3 +2,5 @@ dash
 pandas
 dash-bootstrap-components
 plotly
+openpyxl
+geopandas
