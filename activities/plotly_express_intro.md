@@ -152,7 +152,7 @@ This uses the same initial dataframe as the purchases by place bar chart. The da
 an image.
 
 ```python
-purchase_df = prepare_data.prepare_purchase_data(df_purchase)
+heatmap_df = prepare_data.prepare_purchase_data_heatmap(df_purchase)
 fig_heatmap = px.imshow(heatmap_df)
 ```
 
