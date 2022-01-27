@@ -152,7 +152,7 @@ This uses the same initial dataframe as the purchases by place bar chart. The da
 an image.
 
 ```python
-purchase_df = prepare_data.prepare_purchase_data(df_purchase)
+heatmap_df = prepare_data.prepare_purchase_data_heatmap(df_purchase)
 fig_heatmap = px.imshow(heatmap_df)
 ```
 
@@ -202,7 +202,7 @@ Now add the chart to the Dash app layout. Add a suitable html.H2 heading above i
 
 ## Further practice
 
-Create your own Dash app (see [/exercises/4_covid_dashboard.md](4_covid_dashboard.md)) or add some random charts to the
+Create your own Dash app (see [activities/covid_dashboard.md](covid_dashboard.md)) or add some random charts to the
 Lollapalooza app (see the choropleth map examples in [/examples](../examples) directory).
 
 You could also explore the [Plotly Express documentation](https://plotly.com/python/plotly-express/#highlevel-features) and try adding some other chart types, either to create

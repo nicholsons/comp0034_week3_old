@@ -2,11 +2,11 @@
 
 ## Activities and guides
 
-1. [Lab 3 instructions](/activities/lab_3.md)
-2. [Introduction to Plotly Express](/activities/plotly_express_intro.md)
-3. [Introduction to Plotly Go](/activities/plotly_go_intro.md)
-4. [Choropleth map examples](/activities/choropleth_maps.md)
-5. [Create a covid Dashboard](/activities/covid_dashboard.md)
+1. [Lab 3 instructions](activities/lab_3.md)
+2. [Introduction to Plotly Express](activities/plotly_express_intro.md)
+3. [Introduction to Plotly Go](activities/plotly_go_intro.md)
+4. [Choropleth map examples](activities/choropleth_maps.md)
+5. [Create a covid Dashboard](activities/covid_dashboard.md)
 
 ### Acknowledgements
 
