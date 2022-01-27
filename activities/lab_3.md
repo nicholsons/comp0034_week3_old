@@ -188,6 +188,17 @@ Create
 a [choropleth map using GeoPandas](https://plotly.com/python/mapbox-county-choropleth/#using-geopandas-data-frames) to
 answer the question.
 
+_UPDATE_: Don't use geopandas to load the geojson from file. Students using windows couldn't install geopandas. Instead use:
+```python
+import json
+from pathlib import Path
+
+geojson_file = Path(__file__).parent.joinpath('data', 'countries.geojson')
+
+with open(geojson_file) as f:
+    geojson = json.load(f)
+```
+
 1. How many medals did each country win in London 2012?
 
 The geojson is in a zip file in the data directory that you will need to extract first (the unzipped file size is too
